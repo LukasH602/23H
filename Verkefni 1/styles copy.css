@@ -1,0 +1,17 @@
+body {
+    max-width: 50em;
+    border: 1px solid red;
+    padding: 1em 2em;
+    margin: 1em auto; /* body tagið miðjusett */
+}
+a.active {
+    color: darkblue;
+}
+h1 {
+    font-style:initial ;
+    color: #772424;
+}
+img {
+    max-width: 50em;
+    margin: 1em auto;
+}
