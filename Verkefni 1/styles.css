@@ -1,8 +1,15 @@
 body {
-    max-width: 50em;
+    max-width: 80em;
     border: 1px solid red;
     padding: 1em 2em;
-    margin: 1em auto; /* body tagið miðjusett */
+    margin: 1em auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+    text-align: center;
 }
 a.active {
     color: darkblue;
@@ -12,6 +19,15 @@ h1 {
     color: #772424;
 }
 img {
-    max-width: 50em;
+    max-width: 15em;
     margin: 1em auto;
+}
+.vinstri{
+    text-align: left;
+}
+.hægri{
+    text-align: right;
+}
+.blar{
+    color: blue;
 }
