@@ -31,3 +31,11 @@ img {
 .blar{
     color: blue;
 }
+.nav{
+    border: 1px solid blue;
+    padding: 1em;
+}
+.footer{
+    border: 1px solid green;
+    padding: 5px;
+}
