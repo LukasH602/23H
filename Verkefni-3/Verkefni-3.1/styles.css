@@ -4,6 +4,7 @@
 body {
     padding: 1em;
 	font-family: sans-serif;
+    font-size: 15px;
 }
 .topnav {
     border: 1px solid blue;
@@ -93,4 +94,7 @@ body {
         grid-template-columns: 2fr 1fr 1fr; /* 50% 25% 25% */
         gap:2em;
     }
+}
+.mid {
+    text-align: center;
 }

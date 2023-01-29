@@ -1,121 +1,43 @@
-* {
-    box-sizing: border-box;
-}
-.body {
-    padding: 1em;
-	font-family: sans-serif;
-    max-width: 80em;
-}
-.topnav {
-    border: 1px solid green;
-    padding: 1em;
-}
-.topmenu, .footer {
-    display: flex;
-    flex-flow: column;;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 1em;
-}
-.topmenu li {
-    text-align: left;
-    padding: .3em 0;
-}
-
-/* grid system */
-
-.col-1, .col-2, .col-3, .col-4 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-/* grid area names */
-
-.art1 {
-    grid-area: art1;
-}
-.as1 {
-    grid-area: as1;
-}
-.as2 {
-    grid-area: as2;
-}
-
-.main {
-    display: grid;
-    grid-template-areas:  
-    "as1"   
-    "art1"
-    "as2"
-    ;
-}
-
-/* viðmið - breakpoints */
-@media screen and (min-width:48em) {
-    .topmenu, .footer {
-        flex-flow: row wrap;
-        justify-content: space-around;
+body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #fff;
+      color: #444;
     }
-    .col-2, .col-4 {
-        grid-template-columns: 1fr 1fr;
-        gap: 2em;
+  
+    .box {
+      background-color: rgb(119, 176, 202);
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+  
     }
-    .main {
-        display: grid;
-        grid-template-areas:  
-        "art1 art1"
-        "as1 as2"
-        ;
-        grid-template-columns: 1fr 1fr;
-        gap:2em;
+  
+    .a {
+      grid-column: 1 / 3;
+      grid-row: 1;
     }
-}
-@media screen and (min-width:60em) {
-    body {
-        max-width: 60em;
-        margin: 0 auto;
+    .b {
+      grid-column: 3 ;
+      grid-row: 1 / 3;
     }
-    .col-2 {
-        grid-template-columns: 1fr 1fr;
-        gap: 2em;
+    .c {
+      grid-column: 1 ;
+      grid-row: 2 ;
     }
-    .col-3 {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 2em;
+    .d {
+      grid-column: 2;
+      grid-row: 2;
     }
-    .col-4 {
-        grid-template-columns: repeat(4,1fr);
-        gap: 2em;
+    .img {
+        max-width: 20em;
     }
-    .main {
-        grid-template-areas:  
-        "art1 as1 as2"
-        ;
-        grid-template-columns: 2fr 1fr 1fr; /* 50% 25% 25% */
-        gap:2em;
+    .img-div {
+        grid-template-columns: 1fr;
     }
-}
-
-.borderred {
-    border: 1px solid red;
-}
-
-.borderblue {
-    border: 1px solid blue;
-    padding: 1em;
-}
-
-.border {
-    border: 1px solid black;
-    padding: 1em;
-}
-
-.text {
-    color: rgb(160, 63, 63);
-    font-size: xxx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.header {
-    text-align: center;
-}

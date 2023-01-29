@@ -1,56 +1,49 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="HTML layout, CSS Grid, Responsive Design, Svegjanleg hönnun">
-	<meta name="author" content="Guðmundur Jón Guðjónsson">
-	<title>Skipulag vefsíðu með Grid</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verkefni 3.2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body class="body">
-	<nav class="topnav">
-		<ul class="topmenu">
-
-            <li><b>Nav - Efnisyfirlit</b></li>
-            <li><a href="../verkefni-3.1/index.html">Verkefni 3.1</a> </li>
-            <li><a href="#">Verkefni 4 </a></li>
-            <li><a href="#">Síða 3</a></li> 
-            <li><a href="#">Síða 4 </a> </li>
-
-        </ul>
-	</nav>
-	<header class="header borderred">
-		<h1 class="text">Header - fyrirsögn</h1>
-		<p>Verkefni 3</p>
-	</header>
-	<main class="main borderblue">
-		<article class="art1">
-			<h3>Main > article </h3>
-			<p>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. </p>
-			<blockquote class="border">Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmsum fontum.</blockquote>
-			<p>Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræða er nátengd sögu prentunar.
-			</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
-		</article>
-        <aside class="as1">			
-            <h3>Main > aside > 1.</h3>
-            <p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgju-<wbr>lengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu.
-            </p><p><a href="http://vefir.multimedia.is/hafdis/lit/">Allt um litafræði</a></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
-        </aside>
-        <aside class="as2">
-            <h3>Main > aside > 2.</h3>
-            <p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerða<wbr>flokkanir eru til en helstu eru þverenda-<wbr>letur og steinskrift. <br>Þverendar kallast þau litlu strik á endum stafs.</p> 
-            <p>Heimild: Wikipedia - Leturfræði</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
-        </aside>
-	</main>
-	<footer class="footer border">
-		<h3>Footer</h3>
-		<p><a href="https://www.w3schools.com/css/css_rwd_intro.asp">Sveigjanleg hönnun</a></p>
-		<p><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Vefhönnun</a></p>
-		<p><a href="https://vefgrunnur.github.io">&copy; 2022 Vefgrunnur</a></p>
-	</footer>
+<body>
+    <div class="wrapper">
+        <div class="box a">
+            <h1>Saga - Bítlarnir</h1>
+            <p>Bítlarnir voru áhrifamikil popphljómsveit sem var stofnuð 1960. Hljómsveitin er í hópi þeirra vinsælustu sem uppi hafa verið. Meðlimir sveitarinnar koma frá Liverpool í Englandi og á rætur sínar að rekja til hljómsveitarinnar The Quarry Men, sem var stofnuð af John Lennon árið 1956. Árið 1957 gekk Paul McCartney til liðs við hana, og árið 1958 George Harrison seinna ganga Stuart Sutcliffe og Pete Best til liðs við hana. Hljómsveitin gekk undir ýmsum nöfnum næstu árin, t.d. Johnny and the Moondogs, The Silver Beetles og vorið 1960 voru hljómsveitarmeðlimir farnir að kalla sig Bítlana (The Beatles).</p>
+        </div>
+        <div class="box b img-div">
+            <img src="The-Beatles-Ringo-Starr-Paul-McCartney-George.png" alt="Bítlarnir" class="img">
+            <img src="Beatles-Outfit.jpg" alt="Bítlarnir" class="img">
+        </div>
+        <div class="box c">
+            <ul>
+                <h3>George Harrison</h3>
+                <li><p>Gítar</p></li>
+                <h3>John Lennon</h3>
+                <li><p>Söngur og Gítar</p></li>
+                <h3>Paul McCartney</h3>
+                <li><p>Söngur og Bassi</p></li>
+                <h3>Ringo Starr</h3>
+                <li><p>Trommur</p></li>
+            </ul>
+        </div>
+        <div class="box d">
+            <p><strong> Lög eftir Bítlana </strong></p>
+                <ol>
+                    <li>"A Hard Day's Night" <small>(1964, A Hard Day's Night)</small></li>
+                    <li>"A Day in the Life" <small>(1967, Sgt. Pepper's Lonely Hearts Club Band)</small></li>
+                    <li>"Yesterday" <small>(1965, Help!)</small></li>
+                    <li>"Strawberry Fields Forever" <small>(1967, Magical Mystery Tour)</small></li>
+                    <li>"Something" <small>(1969, Abbey Road)</small></li>
+                    <li>"She Loves You" <small>(1963, Past Masters)</small></li>
+                    <li>"Let It Be" <small>(1970, Let It Be)</small></ul>
+                    <li>"Tomorrow Never Knows" <small>(1966, Revolver)</small></li>
+                    <li>"Norwegian Wood (The Bird Has Flown)" <small>(1965, Rubber Soul)</small></li>
+                    <li>"Across the Universe" <small>(1969, Let It Be)</small></li>
+                </ol>
+        </div>
+      </div>
 </body>
 </html>
