@@ -1,4 +1,15 @@
+body {
+    background: linear-gradient(rgb(23, 33, 210),rgb(18, 29, 150));
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+header {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 10vw;
+
 }
