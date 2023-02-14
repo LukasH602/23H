@@ -39,3 +39,23 @@ img {
     border: 1px solid green;
     padding: 5px;
 }
+.upp {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.upp2 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+}
