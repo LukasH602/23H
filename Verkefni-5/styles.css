@@ -80,6 +80,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.voice {
+    
+    padding: 25px;
+}
+
 .upp2 {
     display: block;
     margin: auto;
