@@ -1,9 +1,20 @@
 body {
     background: linear-gradient(rgb(23, 210, 198),rgb(18, 185, 29));
     margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+@font-face {
+    font-family: "Bootle";
+    src: url("Bootle-4B9l.ttf");
+}
+
+h2 {
+    font-family: Bootle;
+}
+
+audio {
+    padding: 12px;
+}
 
 .wrapper {
     display: grid;
@@ -22,6 +33,7 @@ header {
     justify-items: center;
     align-items: center;
     font-size: 10vw;
+    font-family: Bootle;
 }
 
 footer {
@@ -81,7 +93,7 @@ html {
 }
 
 .voice {
-    
+    text-align: center;
     padding: 25px;
 }
 
