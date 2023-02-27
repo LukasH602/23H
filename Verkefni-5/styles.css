@@ -88,6 +88,69 @@ nav {
     border: 2px solid black;
 }
 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+tbody tr:nth-child(odd){
+    background: #0084ff;
+}
+
+tbody tr:nth-child(even){
+    background: #00fbff;
+}
+
+
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
+thead{
+    background: rgb(13, 105, 243);
+}
+
+
+
+@media screen and (max-width:600px) {
+    table{
+        width: 100%;
+    }
+
+    thead{
+        display: none;
+    }
+
+    td{
+        display: block;
+        text-align: right;
+
+    }
+
+    tr{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    td::before{
+        content: attr(data);
+        float: left;
+
+    }
+}
+
+form{
+    background: linear-gradient(#00fbff, #0084ff)
+
+}
+
 html {
     scroll-behavior: smooth;
 }
